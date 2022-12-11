@@ -12,6 +12,7 @@ sentence5 = nlp("The man who whistles tunes pianos")
 gardenpathSentences = [sentence1, sentence2, sentence3, sentence4, sentence5]
 
 for sentence in gardenpathSentences:
+    print("######################################################################")
 
     # Print original sentence:
     print(sentence)
@@ -28,6 +29,7 @@ for sentence in gardenpathSentences:
     print(f"Sentence 'entity recognition'")
     print([(i, i.label_, i.label) for i in sentence.ents])  # Search for recognised elements such as people, events and places
     print()
+    print("######################################################################")
 
 input()
 
