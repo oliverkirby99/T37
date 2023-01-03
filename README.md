@@ -1,5 +1,4 @@
 # T37 - garden_sentences
-A program that takes in a sentence and returns the type of word for each word in the sentence. But the sentences setup in this program are 'Garden Path Sentences' which trick the 'spacy' module.
 
 Download this Repo as a zip file
 
